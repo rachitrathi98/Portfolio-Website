@@ -1,0 +1,23 @@
+svg text {
+         stroke: 	#FFFFFF;
+font-size: 80 px;
+font weight : 700;
+stroke width:15;
+animation : textAnimate 4s ;
+
+}
+
+@keyframes textAnimate{
+0%{
+stroke-dasharray : 0 50%;
+stroke-dashoffset:-20%;
+ stroke: 	#FFFFFF;
+}
+100%{
+	 stroke: 	#FFFFFF;	
+
+stroke-dasharray: 100% 0;
+stroke-dashoffset:20%;
+fill:#FFFFFF;	;	
+
+}
